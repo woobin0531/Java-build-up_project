@@ -12,10 +12,10 @@ class Circle {
 
 public class CircleArray {
     public static void main(String[] args) {
-        Circle[] c = new Circle[5]; // Circle 객체 배열 선언
+        CircleArea[] c = new CircleArea[5]; // Circle 객체 배열 선언
 
         for (int i = 0; i < c.length; i++) {
-            c[i] = new Circle(i); // 각 배열 요소에 Circle 객체 생성
+            c[i] = new CircleArea(i); // 각 배열 요소에 Circle 객체 생성
         }
 
         for (int i = 0; i < c.length; i++) {

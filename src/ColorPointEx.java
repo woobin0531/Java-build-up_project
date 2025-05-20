@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class ColorPointEx {
     public static void main(String[] args) {
         Point p = new Point();
@@ -23,7 +21,7 @@ class Point {
     }
 }
 
-class ColorPoint extends Point {
+class ColorPoint {
     private String color;
     public void setColor(String color){
         this.color = color;
